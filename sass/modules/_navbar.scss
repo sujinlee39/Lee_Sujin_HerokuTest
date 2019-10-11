@@ -1,0 +1,30 @@
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: $header;
+
+    h1 {
+        text-align: center;
+        color: $text;
+        line-height: 10vh;
+        font-family: 'Raleway', Times, sans-serif;
+        font-size: 2em;
+    }
+}
+
+@media only screen and (min-width: 787px) {
+
+    .header {
+        width: 100%;
+        height: 50px;
+        background-color: $header;
+    
+        h1 {
+            text-align: center;
+            color: $text;
+            line-height: 6vh;
+            font-family: 'Raleway', Times, sans-serif;
+            font-size: 2em;
+        }
+    }
+}
